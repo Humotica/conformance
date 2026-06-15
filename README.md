@@ -30,6 +30,8 @@ cd ztip-conformance && ./run.sh        # no third-party deps; ends green or fail
 Green `run.sh` proves the vectors are internally consistent — **that is not interop**.
 Interop is when *your* independent implementation agrees with `vectors/*.json`. That is the point.
 
+**How each vector is verified (and why) — the rule for every builder:** see [`VERIFICATION-MODEL.md`](VERIFICATION-MODEL.md).
+
 - **Hub / docs:** https://jtel-ztip-w3c.github.io
 - **Demo app:** [`Jtel-ZTIP-w3c/ID-Drop`](https://github.com/Jtel-ZTIP-w3c/ID-Drop) — two phones tap, one offers, one verifies (APK in Releases)
 - **License:** Apache-2.0 on every kit · open standard, open vectors
